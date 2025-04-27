@@ -4,33 +4,33 @@ import VideoCard from "@/components/VideoCard";
 const videos = [
   {
     id: "video1",
-    title: "Introduction",
-    thumbnailUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    videoId: "YOUR_YOUTUBE_ID_1"
+    title: "Mirza // Garten der Erinnerungen - Garden of Memories",
+    thumbnailUrl: "video1.png",
+    videoId: "pWd649nyFlA"
   },
   {
     id: "video2",
-    title: "Getting Started",
-    thumbnailUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-    videoId: "YOUR_YOUTUBE_ID_2"
+    title: "Salman // Vergessene Lieder - Forgotten Songs",
+    thumbnailUrl: "video1.png",
+    videoId: "KwdYwTNFno4"
   },
   {
     id: "video3",
-    title: "Key Features",
-    thumbnailUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-    videoId: "YOUR_YOUTUBE_ID_3"
+    title: "Dochte entzüden - Lighting the Wicks",
+    thumbnailUrl: "video1.png",
+    videoId: "nTDW5pFgxik"
   },
   {
     id: "video4",
-    title: "Tutorial",
-    thumbnailUrl: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-    videoId: "YOUR_YOUTUBE_ID_4"
+    title: "Echos von Lalisch - Echoes of Lalish",
+    thumbnailUrl: "video1.png",
+    videoId: "P3o24REEvhA"
   },
   {
     id: "video5",
-    title: "Advanced Topics",
-    thumbnailUrl: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81",
-    videoId: "YOUR_YOUTUBE_ID_5"
+    title: "Mirza // Musikabend - Music Evening",
+    thumbnailUrl: "video1.png",
+    videoId: "eQPY3s9APds"
   }
 ];
 
@@ -66,12 +66,12 @@ const Index = () => {
       {/* Logos Section */}
       <footer className="mt-12 flex justify-center items-center space-x-12">
         <img
-          src="/placeholder.svg"
+          src="/hawar_logo.png"
           alt="Logo 1"
           className="h-12 w-auto brightness-0 invert"
         />
         <img
-          src="/placeholder.svg"
+          src="/amt_logo.svg"
           alt="Logo 2"
           className="h-12 w-auto brightness-0 invert"
         />
