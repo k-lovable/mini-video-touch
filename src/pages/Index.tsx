@@ -37,10 +37,19 @@ const Index = () => {
 
       {/* Videos Grid */}
       <div className="flex-1 flex items-center">
-        <div className="grid grid-cols-3 gap-8 max-w-6xl mx-auto w-full justify-items-center">
-          {videos.map((video, index) => <div key={video.id} className={`${index === videos.length - 1 ? "col-start-2" : ""}`}>
-              <VideoCard title={video.title} thumbnailUrl={video.thumbnailUrl} videoId={video.videoId} />
-            </div>)}
+        <div className="flex flex-wrap justify-center gap-8 max-w-6xl mx-auto w-full">
+          {videos.map((video, index) => (
+            <div 
+              key={video.id} 
+              className={"flex-1 min-w-[250px] max-w-[300px]"}
+            >
+              <VideoCard
+                title={video.title}
+                thumbnailUrl={video.thumbnailUrl}
+                videoId={video.videoId}
+              />
+            </div>
+          ))}
         </div>
       </div>
 
