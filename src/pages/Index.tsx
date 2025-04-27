@@ -36,20 +36,23 @@ const videos = [
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white p-6 flex flex-col">
+    <div className="min-h-screen bg-gray-950 p-6 flex flex-col">
       {/* Title Section */}
-      <header className="text-center mb-8">
+      <header className="text-center mb-12">
         <h1 className="text-3xl font-bold space-x-4">
-          <span>Tap the video to play</span>
-          <span className="text-gray-600">Tippen Sie auf das Video zum Abspielen</span>
+          <span className="text-white">Tap the video to play</span>
+          <span className="text-gray-400">Tippen Sie auf das Video zum Abspielen</span>
         </h1>
       </header>
 
       {/* Videos Grid */}
-      <div className="flex-1">
-        <div className="grid grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div className="flex-1 flex items-center">
+        <div className="grid grid-cols-3 gap-8 max-w-6xl mx-auto w-full">
           {videos.map((video, index) => (
-            <div key={video.id} className={index === videos.length - 1 ? "col-start-2" : ""}>
+            <div 
+              key={video.id} 
+              className={`${index === videos.length - 1 ? "col-start-2" : ""}`}
+            >
               <VideoCard
                 title={video.title}
                 thumbnailUrl={video.thumbnailUrl}
@@ -61,16 +64,16 @@ const Index = () => {
       </div>
 
       {/* Logos Section */}
-      <footer className="mt-8 flex justify-center items-center space-x-8">
+      <footer className="mt-12 flex justify-center items-center space-x-12">
         <img
           src="/placeholder.svg"
           alt="Logo 1"
-          className="h-12 w-auto"
+          className="h-12 w-auto brightness-0 invert"
         />
         <img
           src="/placeholder.svg"
           alt="Logo 2"
-          className="h-12 w-auto"
+          className="h-12 w-auto brightness-0 invert"
         />
       </footer>
     </div>
