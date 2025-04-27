@@ -68,12 +68,12 @@ const Index = () => {
         <img
           src="/hawar_logo.png"
           alt="Logo 1"
-          className="h-12 w-auto brightness-0 invert"
+          className="h-12 w-auto"
         />
         <img
           src="/amt_logo.svg"
           alt="Logo 2"
-          className="h-12 w-auto brightness-0 invert"
+          className="h-12 w-auto"
         />
       </footer>
     </div>
