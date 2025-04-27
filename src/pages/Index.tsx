@@ -26,12 +26,12 @@ const videos = [{
   videoId: "eQPY3s9APds"
 }];
 const Index = () => {
-  return <div className="min-h-screen bg-gray-950 p-6 flex flex-col">
+  return <div className="min-h-screen bg-gray-150 p-6 flex flex-col">
       {/* Title Section */}
       <header className="text-center mb-12">
         <h1 className="text-3xl font-bold space-x-4">
-          <span className="text-white">Tap the video to play</span>
-          <span className="text-gray-400">Tippen Sie auf das Video zum Abspielen</span>
+          <span className="text-black">Tippen Sie auf das Video zum Abspielen</span>
+          <span className="text-gray-600">Tap the video to play</span>
         </h1>
       </header>
 
