@@ -18,10 +18,10 @@ const VideoCard = ({ title, thumbnailUrl, videoId }: VideoCardProps) => {
           className="w-full h-full object-cover aspect-video"
         />
         <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/50 transition-all duration-300">
-          <Play className="w-16 h-16 text-white opacity-90 group-hover:scale-110 transition-transform duration-300" />
+          <Play className="w-12 h-12 text-white opacity-90 group-hover:scale-110 transition-transform duration-300" />
         </div>
         <div className="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/80 to-transparent">
-          <p className="text-white text-lg font-medium">{title}</p>
+          <p className="text-white text-md font-medium">{title}</p>
         </div>
       </button>
     </VideoDialog>
