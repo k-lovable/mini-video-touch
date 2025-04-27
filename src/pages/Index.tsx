@@ -11,25 +11,25 @@ const videos = [
   {
     id: "video2",
     title: "Salman // Vergessene Lieder - Forgotten Songs",
-    thumbnailUrl: "video1.png",
+    thumbnailUrl: "video2.png",
     videoId: "KwdYwTNFno4"
   },
   {
     id: "video3",
     title: "Dochte entzüden - Lighting the Wicks",
-    thumbnailUrl: "video1.png",
+    thumbnailUrl: "video3.png",
     videoId: "nTDW5pFgxik"
   },
   {
     id: "video4",
     title: "Echos von Lalisch - Echoes of Lalish",
-    thumbnailUrl: "video1.png",
+    thumbnailUrl: "video4.png",
     videoId: "P3o24REEvhA"
   },
   {
     id: "video5",
     title: "Mirza // Musikabend - Music Evening",
-    thumbnailUrl: "video1.png",
+    thumbnailUrl: "video5.png",
     videoId: "eQPY3s9APds"
   }
 ];
